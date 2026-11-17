@@ -1,0 +1,26 @@
+{
+  "source_file": "HWSD2.mdb",
+  "source_sha256": "f52c40194c3b314ea46306c3ec6f0e227ab66eb424422e0f095ece4c75212dff",
+  "source_table": "HWSD2_LAYERS",
+  "records": 408835,
+  "columns": [
+    "HWSD2_SMU_ID",
+    "SEQUENCE",
+    "SHARE",
+    "TOPDEP",
+    "BOTDEP",
+    "SAND",
+    "SILT",
+    "CLAY",
+    "ORG_CARBON",
+    "BULK",
+    "COARSE"
+  ],
+  "transformations": [
+    "Select required columns; preserve source units",
+    "Official negative missing-value codes become blank",
+    "Gzip CSV export; original MDB unchanged"
+  ],
+  "citation": "FAO and IIASA. 2023. Harmonized World Soil Database version 2.0. https://doi.org/10.4060/cc3823en",
+  "raster_source": "https://s3.eu-west-1.amazonaws.com/data.gaezdev.aws.fao.org/HWSD/HWSD2_RASTER.zip"
+}

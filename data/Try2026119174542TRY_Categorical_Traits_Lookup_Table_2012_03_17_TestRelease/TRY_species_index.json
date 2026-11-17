@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "source_sha256": "8d6b0ece5f9d4d578474e33571f224b19b7b2f688a44630f2ce13a6c5e4da49f",
+  "index_sha256": "a023c42cc6893654ef15f3040de493736b49e0ef88fec9a3c07c3cc9eefd3a7a",
+  "records": 66042,
+  "columns": [
+    "AccSpeciesID",
+    "AccSpeciesName",
+    "pft"
+  ],
+  "citation": "Kattge et al. (2011), Global Change Biology 17:2905\u20132935; TRY Categorical Traits v1.0 (2012)",
+  "numeric_rates": "Not provided by categorical traits"
+}

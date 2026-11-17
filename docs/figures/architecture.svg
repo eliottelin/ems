@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="580" viewBox="0 0 1400 580">
+<rect width="1400" height="580" fill="#f7faf9"/>
+<text x="55" y="60" font-family="DejaVu Sans,Arial" font-size="34" fill="#13382f" font-weight="700">One builder. Independent research applications.</text>
+<text x="55" y="91" font-family="DejaVu Sans,Arial" font-size="18" fill="#50685f">The hosted builder generates code and documentation, not agent-driven execution.</text>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#55786d"/></marker></defs>
+<rect x="54" y="139" width="284" height="190" rx="16" fill="#e3f0eb" stroke="#76ad98" stroke-width="2"/>
+<text x="77" y="177" font-family="DejaVu Sans,Arial" font-size="18" fill="#39725c">STEP 01</text>
+<text x="77" y="209" font-family="DejaVu Sans,Arial" font-weight="700" font-size="24" fill="#173d31">Builder</text>
+<text x="77" y="249" font-family="DejaVu Sans,Arial" font-size="16" fill="#294a40">Select data + models</text>
+<text x="77" y="278" font-family="DejaVu Sans,Arial" font-size="16" fill="#294a40">Define customization</text>
+<text x="77" y="307" font-family="DejaVu Sans,Arial" font-size="16" fill="#294a40">Runs locally or hosted</text>
+<path d="M339 235H398" stroke="#55786d" stroke-width="3.5" fill="none" marker-end="url(#arr)"/>
+<rect x="403" y="139" width="283" height="190" rx="16" fill="#e8effb" stroke="#829fd4" stroke-width="2"/>
+<text x="426" y="177" font-family="DejaVu Sans,Arial" font-size="18" fill="#4266a4">STEP 02</text>
+<text x="426" y="209" font-family="DejaVu Sans,Arial" font-weight="700" font-size="24" fill="#233e75">Project ZIP</text>
+<text x="426" y="249" font-family="DejaVu Sans,Arial" font-size="16" fill="#29466f">Python model modules</text>
+<text x="426" y="278" font-family="DejaVu Sans,Arial" font-size="16" fill="#29466f">Streamlit app + tests</text>
+<text x="426" y="307" font-family="DejaVu Sans,Arial" font-size="16" fill="#29466f">Agent-neutral brief</text>
+<path d="M686 235H746" stroke="#55786d" stroke-width="3.5" fill="none" marker-end="url(#arr)"/>
+<rect x="750" y="139" width="284" height="190" rx="16" fill="#fff4e4" stroke="#cea66e" stroke-width="2"/>
+<text x="773" y="177" font-family="DejaVu Sans,Arial" font-size="18" fill="#8b6632">STEP 03</text>
+<text x="773" y="209" font-family="DejaVu Sans,Arial" font-weight="700" font-size="24" fill="#66481b">Local model app</text>
+<text x="773" y="249" font-family="DejaVu Sans,Arial" font-size="16" fill="#6d552d">Run and explore results</text>
+<text x="773" y="278" font-family="DejaVu Sans,Arial" font-size="16" fill="#6d552d">Edit independently</text>
+<text x="773" y="307" font-family="DejaVu Sans,Arial" font-size="16" fill="#6d552d">No AI dependency</text>
+<path d="M1034 235H1095" stroke="#55786d" stroke-width="3.5" fill="none" marker-end="url(#arr)"/>
+<rect x="1099" y="139" width="245" height="190" rx="16" fill="#ececf9" stroke="#9999d1" stroke-width="2"/>
+<text x="1122" y="177" font-family="DejaVu Sans,Arial" font-size="18" fill="#6763a0">OPTIONAL</text>
+<text x="1122" y="209" font-family="DejaVu Sans,Arial" font-weight="700" font-size="24" fill="#424270">Extend / publish</text>
+<text x="1122" y="249" font-family="DejaVu Sans,Arial" font-size="16" fill="#4f4a79">Any coding agent</text>
+<text x="1122" y="278" font-family="DejaVu Sans,Arial" font-size="16" fill="#4f4a79">or human developer</text>
+<text x="1122" y="307" font-family="DejaVu Sans,Arial" font-size="16" fill="#4f4a79">Optional cloud app</text>
+<rect x="54" y="392" width="1290" height="130" rx="13" fill="#ffffff" stroke="#d1dfd9" stroke-width="2"/>
+<text x="80" y="431" font-family="DejaVu Sans,Arial" font-size="19" fill="#173d31" font-weight="700">Scientific model library: the reusable foundation</text>
+<text x="80" y="468" font-family="DejaVu Sans,Arial" font-size="17" fill="#445d54">Water balance  |  Plant biomass  |  Soil carbon  |  Open-Meteo weather  |  Dataset adapters (future)</text>
+<text x="80" y="498" font-family="DejaVu Sans,Arial" font-size="15" fill="#647970">Tests, units, provenance and model cards travel with each generated application.</text>
+<path d="M200 391V350" stroke="#80998f" stroke-dasharray="7 5" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+</svg>

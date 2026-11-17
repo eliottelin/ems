@@ -1,0 +1,168 @@
+{
+  "checked_at_utc": "2026-11-17T22:12:03.588786+00:00",
+  "documentation": "https://rest.isric.org/soilgrids/v2.0/docs",
+  "openapi_url": "https://rest.isric.org/soilgrids/v2.0/openapi.json",
+  "checks": [
+    {
+      "kind": "openapi",
+      "http_status": 200,
+      "seconds": 0.456,
+      "api_info": {
+        "title": "Soilgrids REST API",
+        "description": "<p>REST API Supporting Soilgrids portal et al.</p>\n                 <strong>For soilgrids FAQ and information:<strong>\n                 <p><a href=\"https://www.isric.org/explore/soilgrids/faq-soilgrids\" target=\"_blank\">https://www.isric.org/explore/soilgrids/faq-soilgrids</a></p>\n                 <p><strong>Please check ISRIC's data policy, disclaimer and citation:</strong></p>\n                 <p><a href=\"https://isric.org/about/data-policy\" target=\"_blank\">https://isric.org/about/data-policy</a></p>                   \n                 ",
+        "version": "2.0"
+      },
+      "paths": [
+        "/classification/query",
+        "/properties/layers",
+        "/properties/query"
+      ],
+      "query_parameters": [
+        {
+          "description": "Longitude coordinate between -180 and 180",
+          "required": true,
+          "schema": {
+            "title": "Lon coordinate",
+            "maximum": 180.0,
+            "minimum": -180.0,
+            "type": "number",
+            "description": "Longitude coordinate between -180 and 180"
+          },
+          "name": "lon",
+          "in": "query"
+        },
+        {
+          "description": "Latitude coordinate between 90 and 90",
+          "required": true,
+          "schema": {
+            "title": "Lat coordinate",
+            "maximum": 90.0,
+            "minimum": -90.0,
+            "type": "number",
+            "description": "Latitude coordinate between 90 and 90"
+          },
+          "name": "lat",
+          "in": "query"
+        },
+        {
+          "required": false,
+          "schema": {
+            "title": "Property",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": [
+              "bdod",
+              "cec",
+              "cfvo",
+              "clay",
+              "nitrogen",
+              "ocd",
+              "ocs",
+              "phh2o",
+              "sand",
+              "silt",
+              "soc",
+              "wv0010",
+              "wv0033",
+              "wv1500"
+            ]
+          },
+          "name": "property",
+          "in": "query"
+        },
+        {
+          "required": false,
+          "schema": {
+            "title": "Depth",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": [
+              "0-5cm",
+              "0-30cm",
+              "5-15cm",
+              "15-30cm",
+              "30-60cm",
+              "60-100cm",
+              "100-200cm"
+            ]
+          },
+          "name": "depth",
+          "in": "query"
+        },
+        {
+          "required": false,
+          "schema": {
+            "title": "Value",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": [
+              "Q0.05",
+              "Q0.5",
+              "Q0.95",
+              "mean",
+              "uncertainty"
+            ]
+          },
+          "name": "value",
+          "in": "query"
+        }
+      ],
+      "response_codes": [
+        "200",
+        "422"
+      ]
+    },
+    {
+      "kind": "complete_rest_profile",
+      "name": "Austin",
+      "site": [
+        30.2672,
+        -97.7431
+      ],
+      "seconds": 13.105,
+      "valid_complete": false,
+      "exception": "NoMatchingData",
+      "message": "SoilGrids has no valid complete profile at this point; choose field coordinates or a mapped-soil cell.",
+      "details": {
+        "latitude": 30.2672,
+        "longitude": -97.7431,
+        "attempts": [
+          {
+            "method": "SoilGrids REST API: mean predictions, units and complete six-depth profile checks",
+            "endpoint": "https://rest.isric.org/soilgrids/v2.0/properties/query",
+            "exception": "NoMatchingData",
+            "message": "SoilGrids REST has no mean bdod for 0-5cm at this site",
+            "seconds": 13.071146999951452,
+            "attempted": true
+          }
+        ],
+        "retrieval_seconds": 13.071178541984409,
+        "map_recovery_requested": false,
+        "map_recovery_available": true,
+        "rest_requested": true,
+        "rest_status": "unavailable",
+        "foreground_budget_seconds": 20.0,
+        "map_recovery_budget_seconds": null,
+        "map_recovery_budget_is_best_effort": false
+      }
+    },
+    {
+      "kind": "complete_rest_profile",
+      "name": "comparison_point",
+      "site": [
+        42.0,
+        -93.7
+      ],
+      "seconds": 15.389,
+      "valid_complete": true,
+      "layers": 6,
+      "method": "SoilGrids REST API: mean predictions, units and complete six-depth profile checks"
+    }
+  ]
+}

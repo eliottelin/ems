@@ -1,0 +1,431 @@
+{
+  "verified_on": "2026-11-09",
+  "purpose": "Live Open-Meteo geocoding and weather probes; observed archive-release boundary",
+  "probes": [
+    {
+      "url": "https://geocoding-api.open-meteo.com/v1/search?name=College%20Station&count=1&language=en&format=json",
+      "response": {
+        "results": [
+          {
+            "id": 4682464,
+            "name": "College Station",
+            "latitude": 30.62798,
+            "longitude": -96.33441,
+            "elevation": 103,
+            "feature_code": "PPL",
+            "country_code": "US",
+            "admin1_id": 4736286,
+            "admin2_id": 4676153,
+            "timezone": "America/Chicago",
+            "population": 107889,
+            "postcodes": [
+              "77840",
+              "77841",
+              "77842",
+              "77843",
+              "77844",
+              "77845"
+            ],
+            "country_id": 6252001,
+            "country": "United States",
+            "admin1": "Texas",
+            "admin2": "Brazos"
+          }
+        ],
+        "generationtime_ms": 0.11777878
+      },
+      "transport": "TinyFish live fetch (ttl=0); local Python network remains restricted"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=30.628&longitude=-96.3344&start_date=2023-01-01&end_date=2023-01-03&daily=temperature_2m_mean%2Cprecipitation_sum%2Cet0_fao_evapotranspiration&models=era5&timezone=UTC",
+      "response": {
+        "latitude": 30.75,
+        "longitude": -96.25,
+        "generationtime_ms": 0.13053417205810547,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 105,
+        "daily_units": {
+          "time": "iso8601",
+          "temperature_2m_mean": "\u00b0C",
+          "precipitation_sum": "mm",
+          "et0_fao_evapotranspiration": "mm"
+        },
+        "daily": {
+          "time": [
+            "2023-01-01",
+            "2023-01-02",
+            "2023-01-03"
+          ],
+          "temperature_2m_mean": [
+            17.9,
+            22.6,
+            21.3
+          ],
+          "precipitation_sum": [
+            0,
+            9,
+            8.9
+          ],
+          "et0_fao_evapotranspiration": [
+            2.32,
+            1.78,
+            2.81
+          ]
+        }
+      },
+      "transport": "TinyFish live fetch (ttl=0); local Python network remains restricted"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=30.628&longitude=-96.3344&start_date=2023-01-01&end_date=2023-01-03&daily=temperature_2m_mean%2Cprecipitation_sum%2Cet0_fao_evapotranspiration&models=era5_seamless&timezone=UTC",
+      "response": {
+        "latitude": 30.599998,
+        "longitude": -96.299995,
+        "generationtime_ms": 0.16582012176513672,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 105,
+        "daily_units": {
+          "time": "iso8601",
+          "temperature_2m_mean": "\u00b0C",
+          "precipitation_sum": "mm",
+          "et0_fao_evapotranspiration": "mm"
+        },
+        "daily": {
+          "time": [
+            "2023-01-01",
+            "2023-01-02",
+            "2023-01-03"
+          ],
+          "temperature_2m_mean": [
+            17.5,
+            21,
+            19.4
+          ],
+          "precipitation_sum": [
+            0,
+            9,
+            8.9
+          ],
+          "et0_fao_evapotranspiration": [
+            2.13,
+            1.16,
+            2.47
+          ]
+        }
+      },
+      "transport": "TinyFish live fetch (ttl=0); local Python network remains restricted"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=30.628&longitude=-96.3344&daily=temperature_2m_mean%2Cprecipitation_sum%2Cet0_fao_evapotranspiration&timezone=UTC&start_date=2026-10-28&end_date=2026-11-04&models=era5",
+      "response": {
+        "latitude": 30.75,
+        "longitude": -96.25,
+        "generationtime_ms": 0.2859830856323242,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 105,
+        "daily_units": {
+          "time": "iso8601",
+          "temperature_2m_mean": "\u00b0C",
+          "precipitation_sum": "mm",
+          "et0_fao_evapotranspiration": "mm"
+        },
+        "daily": {
+          "time": [
+            "2026-10-28",
+            "2026-10-29",
+            "2026-10-30",
+            "2026-10-31",
+            "2026-11-01",
+            "2026-11-02",
+            "2026-11-03",
+            "2026-11-04"
+          ],
+          "temperature_2m_mean": [
+            22.7,
+            22.7,
+            22.2,
+            22.2,
+            23.7,
+            25,
+            24.3,
+            null
+          ],
+          "precipitation_sum": [
+            1.1,
+            0.3,
+            1.3,
+            3.4,
+            0,
+            0,
+            31.4,
+            null
+          ],
+          "et0_fao_evapotranspiration": [
+            2.89,
+            2.52,
+            2.29,
+            2.37,
+            3.12,
+            3.4,
+            2.71,
+            null
+          ]
+        }
+      },
+      "transport": "TinyFish live fetch (ttl=0); local Python network remains restricted"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=30.628&longitude=-96.3344&daily=temperature_2m_mean%2Cprecipitation_sum%2Cet0_fao_evapotranspiration&timezone=UTC&start_date=2026-10-28&end_date=2026-11-04&models=era5_seamless",
+      "response": {
+        "latitude": 30.599998,
+        "longitude": -96.299995,
+        "generationtime_ms": 0.22363662719726562,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 105,
+        "daily_units": {
+          "time": "iso8601",
+          "temperature_2m_mean": "\u00b0C",
+          "precipitation_sum": "mm",
+          "et0_fao_evapotranspiration": "mm"
+        },
+        "daily": {
+          "time": [
+            "2026-10-28",
+            "2026-10-29",
+            "2026-10-30",
+            "2026-10-31",
+            "2026-11-01",
+            "2026-11-02",
+            "2026-11-03",
+            "2026-11-04"
+          ],
+          "temperature_2m_mean": [
+            22.8,
+            23.1,
+            22.5,
+            22.1,
+            23.6,
+            25.1,
+            24.1,
+            null
+          ],
+          "precipitation_sum": [
+            1.1,
+            0.3,
+            1.3,
+            3.4,
+            0,
+            0,
+            31.4,
+            null
+          ],
+          "et0_fao_evapotranspiration": [
+            2.84,
+            2.54,
+            2.34,
+            2.37,
+            3.09,
+            3.44,
+            2.49,
+            null
+          ]
+        }
+      },
+      "transport": "TinyFish live fetch (ttl=0); local Python network remains restricted"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=30.628&longitude=-96.3344&daily=temperature_2m_mean%2Cprecipitation_sum%2Cet0_fao_evapotranspiration&timezone=UTC&start_date=1940-01-01&end_date=1940-01-03&models=era5_seamless",
+      "response": {
+        "latitude": 30.599998,
+        "longitude": -96.299995,
+        "generationtime_ms": 0.12636184692382812,
+        "utc_offset_seconds": 0,
+        "timezone": "GMT",
+        "timezone_abbreviation": "GMT",
+        "elevation": 105,
+        "daily_units": {
+          "time": "iso8601",
+          "temperature_2m_mean": "\u00b0C",
+          "precipitation_sum": "mm",
+          "et0_fao_evapotranspiration": "mm"
+        },
+        "daily": {
+          "time": [
+            "1940-01-01",
+            "1940-01-02",
+            "1940-01-03"
+          ],
+          "temperature_2m_mean": [
+            9.2,
+            4.4,
+            4.2
+          ],
+          "precipitation_sum": [
+            null,
+            0.4,
+            0
+          ],
+          "et0_fao_evapotranspiration": [
+            null,
+            1.65,
+            1.57
+          ]
+        }
+      },
+      "transport": "TinyFish live fetch (ttl=0); local Python network remains restricted"
+    },
+    {
+      "url": "https://geocoding-api.open-meteo.com/v1/search?name=College%20Station%2C%20Texas&count=3&language=en&format=json",
+      "response": {
+        "results": [
+          {
+            "id": 4682464,
+            "name": "College Station",
+            "latitude": 30.62798,
+            "longitude": -96.33441,
+            "elevation": 103,
+            "feature_code": "PPL",
+            "country_code": "US",
+            "admin1_id": 4736286,
+            "admin2_id": 4676153,
+            "timezone": "America/Chicago",
+            "population": 107889,
+            "postcodes": [
+              "77840",
+              "77841",
+              "77842",
+              "77843",
+              "77844",
+              "77845"
+            ],
+            "country_id": 6252001,
+            "country": "United States",
+            "admin1": "Texas",
+            "admin2": "Brazos"
+          }
+        ],
+        "generationtime_ms": 0.21088123
+      },
+      "transport": "TinyFish live fetch (ttl=0); local Python network remains restricted"
+    }
+  ],
+  "local_parser_and_model_checks": [
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=30.628&longitude=-96.3344&start_date=2023-01-01&end_date=2023-01-03&daily=temperature_2m_mean%2Cprecipitation_sum%2Cet0_fao_evapotranspiration&models=era5&timezone=UTC",
+      "provider_model": "era5",
+      "status": "passed",
+      "daily_records": 3,
+      "water_residual_mm": 6.217248937900877e-15,
+      "carbon_residual_gC_m2": 8.306688670245421e-13
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=30.628&longitude=-96.3344&start_date=2023-01-01&end_date=2023-01-03&daily=temperature_2m_mean%2Cprecipitation_sum%2Cet0_fao_evapotranspiration&models=era5_seamless&timezone=UTC",
+      "provider_model": "era5_seamless",
+      "status": "passed",
+      "daily_records": 3,
+      "water_residual_mm": 6.439293542825908e-15,
+      "carbon_residual_gC_m2": 1.2252421299763228e-12
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=30.628&longitude=-96.3344&daily=temperature_2m_mean%2Cprecipitation_sum%2Cet0_fao_evapotranspiration&timezone=UTC&start_date=2026-10-28&end_date=2026-11-04&models=era5",
+      "provider_model": "era5",
+      "status": "missing_provider_records",
+      "diagnostics": {
+        "source": "Captured live Open-Meteo response",
+        "requested_start": "2026-10-28",
+        "requested_end": "2026-11-04",
+        "missing_values": {
+          "temperature_2m_mean": {
+            "count": 1,
+            "first_dates": [
+              "2026-11-04"
+            ],
+            "last_date": "2026-11-04"
+          },
+          "precipitation_sum": {
+            "count": 1,
+            "first_dates": [
+              "2026-11-04"
+            ],
+            "last_date": "2026-11-04"
+          },
+          "et0_fao_evapotranspiration": {
+            "count": 1,
+            "first_dates": [
+              "2026-11-04"
+            ],
+            "last_date": "2026-11-04"
+          }
+        },
+        "suggested_end_date": "2026-11-03"
+      }
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=30.628&longitude=-96.3344&daily=temperature_2m_mean%2Cprecipitation_sum%2Cet0_fao_evapotranspiration&timezone=UTC&start_date=2026-10-28&end_date=2026-11-04&models=era5_seamless",
+      "provider_model": "era5_seamless",
+      "status": "missing_provider_records",
+      "diagnostics": {
+        "source": "Captured live Open-Meteo response",
+        "requested_start": "2026-10-28",
+        "requested_end": "2026-11-04",
+        "missing_values": {
+          "temperature_2m_mean": {
+            "count": 1,
+            "first_dates": [
+              "2026-11-04"
+            ],
+            "last_date": "2026-11-04"
+          },
+          "precipitation_sum": {
+            "count": 1,
+            "first_dates": [
+              "2026-11-04"
+            ],
+            "last_date": "2026-11-04"
+          },
+          "et0_fao_evapotranspiration": {
+            "count": 1,
+            "first_dates": [
+              "2026-11-04"
+            ],
+            "last_date": "2026-11-04"
+          }
+        },
+        "suggested_end_date": "2026-11-03"
+      }
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=30.628&longitude=-96.3344&daily=temperature_2m_mean%2Cprecipitation_sum%2Cet0_fao_evapotranspiration&timezone=UTC&start_date=1940-01-01&end_date=1940-01-03&models=era5_seamless",
+      "provider_model": "era5_seamless",
+      "status": "missing_provider_records",
+      "diagnostics": {
+        "source": "Captured live Open-Meteo response",
+        "requested_start": "1940-01-01",
+        "requested_end": "1940-01-03",
+        "missing_values": {
+          "precipitation_sum": {
+            "count": 1,
+            "first_dates": [
+              "1940-01-01"
+            ],
+            "last_date": "1940-01-01"
+          },
+          "et0_fao_evapotranspiration": {
+            "count": 1,
+            "first_dates": [
+              "1940-01-01"
+            ],
+            "last_date": "1940-01-01"
+          }
+        }
+      }
+    }
+  ]
+}

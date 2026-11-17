@@ -1,0 +1,4 @@
+[server]
+# Reload imported local modules after edits, including on hosts without watchdog.
+fileWatcherType = "poll"
+runOnSave = true

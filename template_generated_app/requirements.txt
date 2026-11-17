@@ -1,0 +1,8 @@
+streamlit>=1.67,<2
+numpy>=1.24
+pandas>=2.0
+requests>=2.31
+openpyxl>=3.1,<4
+pillow>=10,<14
+scipy>=1.12
+access-parser>=0.0.6,<0.1

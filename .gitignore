@@ -1,0 +1,49 @@
+# Local environments, caches and development tools
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ty_cache/
+.ruff_cache/
+.ems-cache/
+.codex-backups/
+.DS_Store
+.vscode/
+.agents/
+.codex/
+.aws/
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+**/secrets.toml
+*.key
+*.pem
+
+# Original local inputs and large downloaded maps; approved compact assets stay
+data/private/
+**/*.mdb
+**/*.bil
+**/*.hdr
+**/*.pending*
+**/*.part
+exports/
+references/
+*.zip
+*.log
+
+# Verification images/reports may contain local test details; documentation stays
+docs/verification/*
+!docs/verification/open_meteo_live_2026-11-09.json
+!docs/verification/soilgrids_live_profile_audit.json
+!docs/verification/soilgrids_openapi_snapshot.json
+!docs/verification/soilgrids_rest_status_2026-11-17.json
+!docs/verification/recovery_polished.png
+!docs/verification/recovery_proxy_selected.png
+!docs/verification/recovery_polished_browser.json
+!docs/verification/recovery_polished_agent_api.json
+!docs/verification/builder_deployment_ready.json
+!docs/verification/deployment_dependency_check.json

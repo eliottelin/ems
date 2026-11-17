@@ -1,0 +1,17 @@
+{
+  "fixture": true,
+  "browser": "Chrome headless",
+  "initial_primary": [
+    "Find nearby data"
+  ],
+  "selected_primary": [
+    "Use nearby data and continue"
+  ],
+  "assumptions_collapsed_by_default": true,
+  "technical_errors_collapsed_by_default": true,
+  "proxy_keeps_original_site": true,
+  "actual_download_contains_proxy_provenance": true,
+  "dialog_to_data_cached_search_calls": 1,
+  "max_visible_progress_bars": 1,
+  "browser_errors": []
+}

@@ -1,0 +1,14 @@
+{
+  "fixture": true,
+  "agent_api": "ready",
+  "snapshot_count": 12,
+  "checks": {
+    "climate_scenario_requires_soil": true,
+    "independent_soil_enables_scenario": true,
+    "scenario_has_provenance_download": true,
+    "recovery_pauses_before_calculation": true,
+    "nearby_search_advances_to_selection": true,
+    "proxy_keeps_original_site": true,
+    "cached_search_survives_dialog_to_data_layout_change": true
+  }
+}

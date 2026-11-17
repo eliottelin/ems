@@ -1,0 +1,62 @@
+{
+  "agent_api": "ready",
+  "all_seven_builder_exports": [
+    {
+      "models": [
+        "water_balance"
+      ],
+      "bytes": 1919962,
+      "zip_integrity": true
+    },
+    {
+      "models": [
+        "vegetation"
+      ],
+      "bytes": 5539804,
+      "zip_integrity": true
+    },
+    {
+      "models": [
+        "soil_carbon"
+      ],
+      "bytes": 1918421,
+      "zip_integrity": true
+    },
+    {
+      "models": [
+        "water_balance",
+        "vegetation"
+      ],
+      "bytes": 7347371,
+      "zip_integrity": true
+    },
+    {
+      "models": [
+        "water_balance",
+        "soil_carbon"
+      ],
+      "bytes": 1922832,
+      "zip_integrity": true
+    },
+    {
+      "models": [
+        "vegetation",
+        "soil_carbon"
+      ],
+      "bytes": 7345833,
+      "zip_integrity": true
+    },
+    {
+      "models": [
+        "water_balance",
+        "vegetation",
+        "soil_carbon"
+      ],
+      "bytes": 7350241,
+      "zip_integrity": true
+    }
+  ],
+  "empty_selection_disables_export": true,
+  "new_helpers_packaged": true,
+  "private_database_and_secrets_excluded": true
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="465" viewBox="0 0 1400 465">
+<rect width="1400" height="465" fill="#f7faf9"/>
+<text x="52" y="55" fill="#173d31" font-size="31" font-family="DejaVu Sans,Arial" font-weight="700">Prototype scientific coupling (daily time step)</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#54766b"/></marker></defs>
+<rect x="56" y="108" width="215" height="120" rx="15" fill="#deeefa" stroke="#79a7c9" stroke-width="2"/><text x="81" y="150" font-size="23" font-weight="700" fill="#245278" font-family="DejaVu Sans,Arial">Weather</text><text x="81" y="183" font-size="18" fill="#386280" font-family="DejaVu Sans,Arial">P, ET0, T</text>
+<rect x="367" y="108" width="265" height="120" rx="15" fill="#dfece7" stroke="#83af9e" stroke-width="2"/><text x="389" y="150" font-size="23" font-weight="700" fill="#225f4c" font-family="DejaVu Sans,Arial">Water balance</text><text x="389" y="183" font-size="18" fill="#4a7565" font-family="DejaVu Sans,Arial">Storage, AET, runoff</text>
+<rect x="743" y="108" width="258" height="120" rx="15" fill="#e9f2df" stroke="#9eb785" stroke-width="2"/><text x="765" y="150" font-size="23" font-weight="700" fill="#3e6530" font-family="DejaVu Sans,Arial">Vegetation</text><text x="765" y="183" font-size="18" fill="#557b4a" font-family="DejaVu Sans,Arial">Biomass, litter C</text>
+<rect x="1120" y="108" width="225" height="120" rx="15" fill="#fff0e6" stroke="#d3a185" stroke-width="2"/><text x="1140" y="150" font-size="23" font-weight="700" fill="#7d4831" font-family="DejaVu Sans,Arial">Soil carbon</text><text x="1140" y="183" font-size="18" fill="#8e5a45" font-family="DejaVu Sans,Arial">Pools, CO2 loss</text>
+<path d="M271 170H362" fill="none" stroke="#54766b" stroke-width="3" marker-end="url(#a)"/>
+<path d="M632 170H737" fill="none" stroke="#54766b" stroke-width="3" marker-end="url(#a)"/>
+<path d="M1001 170H1114" fill="none" stroke="#54766b" stroke-width="3" marker-end="url(#a)"/>
+<text x="651" y="153" fill="#63786e" font-size="13" font-family="DejaVu Sans,Arial">moisture stress</text>
+<text x="1021" y="153" fill="#63786e" font-size="13" font-family="DejaVu Sans,Arial">litter inputs</text>
+<path d="M475 230V302H1232V230" stroke="#54766b" stroke-width="2.5" stroke-dasharray="8 4" fill="none" marker-end="url(#a)"/>
+<text x="679" y="293" fill="#63786e" font-size="14" font-family="DejaVu Sans,Arial">water status influences C turnover</text>
+<rect x="56" y="342" width="1289" height="82" rx="12" fill="#fff" stroke="#d8e2dd"/>
+<text x="84" y="376" fill="#355147" font-family="DejaVu Sans,Arial" font-weight="700" font-size="17">Mass balance checks:</text>
+<text x="84" y="405" fill="#506960" font-family="DejaVu Sans,Arial" font-size="17">P = runoff + actual ET + drainage + change in water storage   |   litter input = respiration + change in SOC</text>
+</svg>
